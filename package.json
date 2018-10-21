@@ -1,0 +1,27 @@
+{
+  "name": "mlpicker-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "gulp && node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "multi-level-poppicker": "^1.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "webpack-stream": "^5.1.1"
+  }
+}
